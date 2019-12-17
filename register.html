@@ -12,7 +12,7 @@
 <body>
     <header>Waiting for the header here</header>
 
-    <section>
+    <section class="registration">
         <h1>REGISTER TO SHOP ON LINE</h1>
 
         <form action=""></form>
@@ -31,11 +31,11 @@
 
             <label for="zip">* Zip Code</label>
             <input type="text" id="zip" required>
-            <p><img src="https://img.icons8.com/pastel-glyph/64/000000/error.png"> Our services are only available in
+            <p><img id="warn" src="https://img.icons8.com/pastel-glyph/64/000000/error.png"> Our services are only available in
                 the Great Vancouver </p>
 
             <label for="city">City</label>
-            <input type="text" id="city" required>
+            <input type="text" id="city" disabled>
 
             <label for="address1">* Address</label>
             <input type="text" id="address1" required>
@@ -45,15 +45,19 @@
         </div>
 
         <div class="notifications">
-            <p>Notifications</p>
-            <input type="checkbox" name="sms_order" id="" value="true"> <label for="sms_order">I accept to receive SMS
+            <p>Notifications</p><p></p>
+            <input type="checkbox" name="sms_order" id="" checked> <label for="sms_order">I accept to receive SMS
                 notifications about my orders</label>
-            <input type="checkbox" name="email_order" id="" value="true"> <label for="email_order">I accept to receive
+            <input type="checkbox" name="email_order" id="" checked> <label for="email_order">I accept to receive
                 email notifications about my orders</label>
-            <input type="checkbox" name="sms_offers" id="" value="true"> <label for="sms_offers">I accept to receive SMS
+            <input type="checkbox" name="sms_offers" id="" checked> <label for="sms_offers">I accept to receive SMS
                 notifications about offers</label>
-            <input type="checkbox" name="email_offers" id="" value="true"> <label for="email_offers">I accept to receive
+            <input type="checkbox" name="email_offers" id="" checked> <label for="email_offers">I accept to receive
                 email notifications about offers</label>
+        </div>
+
+        <div class="acceptance">
+            <button type="submit">Register</button>
         </div>
         </form>
 

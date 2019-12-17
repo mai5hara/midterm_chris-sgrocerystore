@@ -1,0 +1,35 @@
+.registration {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.formRegister {
+    width: 400px;
+    display: grid;
+    grid-template-columns: 400px;
+    row-gap: 6px;
+    padding: 10px;
+}
+
+#warn {
+    width: 25px;
+}
+
+.notifications {
+    width: 400px;
+    display: grid;
+    grid-template-columns: 20px 380px;
+    row-gap: 6px;
+    background-color: lightgray;
+
+    padding: 10px;
+}
+
+.acceptance {
+    padding: 10px;
+    text-align: right;
+}
+
+.acceptance button {
+    background-color: green;
+}
