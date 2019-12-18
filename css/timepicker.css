@@ -1,0 +1,19 @@
+#pickupgrid {
+    width: 800px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+    gap: 0;
+    padding: 10px;
+}
+
+.time {
+    text-align: center;
+}
+
+.unavailable {
+    background-color: lightgray;
+}
+
+.available {
+    background-color: lightgreen;
+}
