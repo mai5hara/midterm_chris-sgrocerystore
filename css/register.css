@@ -20,7 +20,7 @@
     display: grid;
     grid-template-columns: 20px 380px;
     row-gap: 6px;
-    background-color: lightgray;
+    background-color: #F0BA58;
 
     padding: 10px;
 }
@@ -31,5 +31,5 @@
 }
 
 .acceptance button {
-    background-color: green;
+    background-color: #852B2A;
 }
