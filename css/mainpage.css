@@ -5,7 +5,6 @@ html{
 
 .mainpage_bigcontainer {
     width:100%;
-    margin:auto;
     padding: 0 100px 0 100px;
     display: inline-block;
 }
@@ -19,9 +18,9 @@ html{
    color: #2E2E2E; 
    font-size: small;
    float: left;
+   margin: 0 10px;
    width: 15%;
-   height: 40%;
-   margin: 0 7px;   
+   height: 40%;  
 }
 
 .mainpage_product_name{
@@ -29,33 +28,39 @@ html{
     width: 98px;
     height: 60px;
     margin: 0 0 0 20px;
+    text-align: left;
 }
 
 .mainpage_product_weight{
     color: #2E2E2E;
     margin: 0 0 0 20px;
+    text-align: left;
 }
 
 .mainpage_small_container{
     width: 100px;
     height: 100px;
+    text-align: left;
 }
 
 .mainpage_product_price{
     color: #2E2E2E;
     margin: 0 0 0 20px;
     font-weight: bold;
+    text-align: left;
 }
 
 .mainpage_product_price_per_unit{
     font-size: x-small;
     color: darkgrey;
     margin: 0 0 0 20px;
+    text-align: left;
 }
 .mainpage_pickup_message{
     color: #2E2E2E;
     margin: 0 20px;
     font-size: medium;
+    text-align: left;
 }
 
 .btn-square-so-pop{
@@ -72,7 +77,10 @@ html{
     width: 147px;
     height: 20px;
     margin: 0;
-  }
+    display: inline-flex
+    justify-content: space-between;
+}
+  
   
 .btn-square-so-pop2{
     text-align: center;
@@ -106,13 +114,15 @@ html{
     height: 20%;
     margin: 30px 15px 0 1.5px; 
     text-align: center;  
+    width: 146px;
  }
 
 .mainpage_bigcontainer2 {
     padding: 0;
     display: inline-block;
-    text-align: center;
-    margin: 20px 0 20px 24px;
+    justify-items: center;
+    width: 100%;
+    margin: 0 0 0 50px;    
 }
 
 
