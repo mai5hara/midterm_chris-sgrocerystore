@@ -1,3 +1,8 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .registration {
     width: 400px;
     margin: 0 auto;
@@ -9,6 +14,13 @@
     grid-template-columns: 400px;
     row-gap: 6px;
     padding: 10px;
+}
+
+.registration h1 {
+    background-color: #852B2A;
+    color: white;
+    width: 100%;
+    text-align: center;
 }
 
 #warn {
