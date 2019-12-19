@@ -198,6 +198,7 @@ header {
     background-color: #F0BA58;
     padding: 2px 7px;
     margin-left: 0;
+    border-radius: 3px;
 }
 
 .header_listleft li {
