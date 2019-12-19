@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="checkout.css">
+</head>
+<body>
+   
+    <h1 class="checkout-h1">Checkout</h1>
+    <div class="checkout-step">
+        <section class="checkout-pick">
+            <h2 class="checkout-h2">&#9312 PICKUP</h2>
+                <h3 class="checkout-h3"><img src="https://img.icons8.com/material/24/000000/worldwide-location--v1.png"><a href="aaa.html">Location</a></h3>
+                <h3 class="checkout-h3"><img src="https://img.icons8.com/android/24/000000/time.png"> Fri Dec 20, 11:00AM-12:00PM</h3>
+            <hr>
+                <h3 class="checkout-h3"><img src="https://img.icons8.com/android/24/000000/phone.png"> (604) 620-1111</h3>
+                <h3 class="checkout-h3"><img src="https://img.icons8.com/material-rounded/24/000000/important-mail.png"> info@ciccc.ca</h3>
+            <hr>
+                <input type="checkbox" name="agree" value="agree">I agree with pickup terms and conditions
+                <p class="checkout-p">Additional information regarding the pickup of your order</p>
+                <textarea rows="5" cols="50"></textarea>
+            <br>
+                <button type="button" class="checkout-btn">Save and continue</button>
+        </section>
+        <section class="checkout-pay">
+            <h2 class="checkout-h2">&#9313 PAYMENT</h2>
+                <h3 class="checkout-h3"><strong>Add Credit Card: Billing Address</strong></h3>
+                    <h4 class="checkout-h4">Address<br>
+                        <form class="checkout-form">
+                            <input type="text" name="address" id="checkout-add" placeholder="Address"></h4>  
+                    <h4>City<br>
+                            <input type="text" name="city" id="checkout-city" placeholder="City"></h4>
+                    <h4>Province<br>
+                            <input type="text" name="provin" id="checkout-provin" placeholder="Province"></h4>
+                    <h4>Postal Code<br>
+                            <input type="text" name="post" id="checkout-post" placeholder="Postal code"></h4>
+                    <h4>Country<br>
+                            <input type="text" name="count" id="checkout-count" placeholder="Country"></h4>
+                    <button type="button" class="checkout-btn">Save and continue</button>
+                    <input type="reset" value="reset" id="checkout-res">
+                </form>
+        </section>
+        <section class="checkout-review">
+            <h2 class="checkout-h2">&#9314 REVIEW YOUR ORDER</h2>
+                <h3 class="checkout-h3"><img src="https://img.icons8.com/ios-glyphs/30/000000/shopping-bag.png"> 1 ITEMS FOR PICKUP</h3>
+                <div id="checkout-show">
+                <a href="image/Ramen.jpg"><img src="image/Ramen.jpg" id="ramen" alt="Ramen"></a>
+                    <p id="checkout-rev">NISSIN RAMEN &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 1 x $7.23 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<strong>$7.23</strong></p>
+                </div>
+            <hr>
+        </section>
+        <section class="checkout-total">
+            <p class="checkout-p">Sub Total (1 item) &emsp;&emsp;$7.23</p>
+            <p class="checkout-p">Pickup Fee &emsp;&emsp;&emsp;&emsp;&emsp;$3.00</p>
+            <p class="checkout-p">Additional Fee(s) &emsp;&emsp; $0.00</p>
+            <p class="checkout-p">Est. Taxes &emsp;&emsp;&emsp;&emsp;&emsp; $0.00</p>
+        <hr>
+            <p class="checkout-p"><strong>Est. Total &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;<strong>$7.23</strong></p>
+        <hr>
+            <p class="checkout-p">Estimated Savings  &nbsp;&nbsp;&nbsp;&nbsp;$3.00</p>
+            <button type="button" id="placeorder"><a href="final.html">PLACE ORDER</a></button>
+        </section>
+    </div>  
+        <div class="checkout-summary">
+            <h3 class="checkout-h3" id="checksummary">ORDER SUMMARY</h3>
+            <hr>
+                <p class="checkout-p">Sub Total (1 item) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$7.23</p>
+                <p class="checkout-p">Pickup Fee &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$3.00</p>
+                <p class="checkout-p">Additional Fee(s) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;$0.00</p>
+                <p class="checkout-p">Est. Taxes &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; $0.00</p>
+            <hr>
+                <p class="checkout-p"><strong>Est. Total &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; $7.23</strong></p>
+            <hr>
+                <p class="checkout-p">Estimated Savings &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; $3.00</p>
+            <hr>
+                <button type="button" id="summarybtn"><a href="final.html">PLACE ORDER</a></button>
+        </div>
+</body>
+</html>
