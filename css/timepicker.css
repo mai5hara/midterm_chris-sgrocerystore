@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+>>>>>>> ffb23e4d8080116d429255ab96f5b247123365e9
 #pickupgrid {
     width: 800px;
     display: grid;
@@ -13,8 +21,18 @@
 
 .unavailable {
     background-color: lightgray;
+<<<<<<< HEAD
 }
 
 .available {
     background-color: lightgreen;
+=======
+    cursor: not-allowed;
+}
+
+.available {
+    background-color: #045757;
+    color: #F0BA58;
+    cursor: pointer;
+>>>>>>> ffb23e4d8080116d429255ab96f5b247123365e9
 }
