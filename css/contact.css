@@ -1,0 +1,138 @@
+body {
+    width: 100%;
+    height: auto;
+    color: #2E2E2E;
+    background-color: #FFFAF3;
+    line-height: 1.8em;
+    font-size: 1em;
+    letter-spacing: 1pt;
+    font-size: 16px;
+}
+
+.contact_wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 180px 100px 180px;
+}
+
+.contact_title {
+    text-align: center;
+    background-color: #d3d3d3;
+    font-size: 3rem;
+    height: 150px;
+    line-height: 150px;
+    vertical-align: middle;
+}
+
+.contact_wrap_right {
+    width: 50%;
+    margin-left: 76px;
+}
+
+.contact_wrap_left {
+    width: 50%;
+}
+
+.contact_row_text, .contact_row_select_wrap {
+    margin-top: 20px;
+}
+
+.contact_row_select {
+    border: 1px solid #aaaaaa;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 45px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.contact_row_select select {
+    width: 100%;
+    height: 45px;
+	padding-right: 1em;
+	cursor: pointer;
+	text-indent: 0.01px;
+	text-overflow: ellipsis;
+	border: none;
+	outline: none;
+	background: transparent;
+	background-image: none;
+	box-shadow: none;
+	-webkit-appearance: none;
+    appearance: none;
+    padding: 10px;
+}
+
+.contact_row_select::before {
+    position: absolute;
+	top: 1.1em;
+	right: 0.9em;
+	width: 0;
+	height: 0;
+	padding: 0;
+	content: '';
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #666666;
+	pointer-events: none;
+}
+
+.contact_text_field {
+    border: 1px solid #aaaaaa;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 45px;
+    width: 100%;
+    padding: 10px;
+}
+
+.contact_category_title {
+    border-bottom: 3px solid #d3d3d3;
+    padding-bottom: 7px;
+    font-size: 1.7rem;
+}
+
+.contact_section, .contact_form  {
+    margin-top: 25px;
+}
+
+.contact_writetous {
+    margin-top: 50px;
+}
+
+.contact_header {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+}
+
+.contact_content a {
+    text-decoration: none;
+    color:#eb9e11;
+}
+.contact_namebox, .contact_productname_box {
+    display: flex;
+} 
+
+.contact_name, .contact_cpu_product {
+    width: 50%;
+} 
+
+.contact_productname, .contact_name_firstname {
+    margin-right: 10px;
+}
+
+.contact_submit {
+    width: 100%;
+    height: 30px;
+}
+
+.contact_submit input {
+    background-color: #eb9e11;
+    margin-top: 30px;
+    border-radius: 4px;
+    color: #2E2E2E;
+    font-size: 1.2rem;
+    padding: 8px 35px;
+}
