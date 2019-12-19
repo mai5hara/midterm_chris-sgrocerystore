@@ -1,0 +1,22 @@
+header{
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+}
+
+/* order-confirmation */
+.order-confirmation{
+    font-family: Phetsarath;
+    margin: 100px;
+}
+.makeSpace{
+    margin-left: 50px;
+}
+p{
+    margin-bottom: 50px;
+}
