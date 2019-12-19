@@ -1,6 +1,7 @@
 * {
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Open Sans', sans-serif;
+    font-size: small;
 }
 
 .timepicker {
@@ -17,7 +18,7 @@
 #pickupgrid {
     width: 100%;
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: repeat(7, 110px); /*100px 100px 100px 100px 100px 100px 100px; */
     gap: 0;
     padding: 10px;
     
