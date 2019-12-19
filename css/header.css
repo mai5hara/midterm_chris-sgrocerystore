@@ -30,6 +30,11 @@ header {
     height: auto;
 }
 
+
+.go-to-mainpage{
+    margin-right: 320px; /* making serchbox center */
+}
+
 .header_searchbox {
     display: flex;
     border: 1px solid #b8b8b8;
