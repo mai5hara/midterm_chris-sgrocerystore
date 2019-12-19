@@ -1,0 +1,90 @@
+footer {
+    background-color: #F0BA58;
+    width: 100%;
+    padding: 30px;
+}
+
+.footer_navigation_wrap {
+    display: flex;
+    width: 80%;
+}
+
+.footer_navigation {
+    margin-left: 70px;
+}
+
+.footer_navigation:first-child {
+    margin-left: 0;
+}
+
+.footer_sns_icons {
+    width: 20%;
+    text-align: right;
+}
+
+.footer_sns_icons img {
+    width: 35px;
+}
+
+.footer_wrap {
+    display: flex;
+}
+
+.footer_navigation_title {
+    font-size: 1.4rem;
+}
+
+.footer_navigation_list_item {
+    list-style: none;
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.footer_navigation_list_item a {
+    text-decoration: none;
+    color: #2E2E2E;
+
+}
+
+.footer_navigation_list_item a:hover {
+    color: #852B2A;
+}
+
+.footer_getdeals {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer_getdeals_title {
+    margin-right: 20px;
+    margin-bottom: 0;
+    color: #747474;
+}
+
+.footer_enter_email {
+    display: flex;
+    height: 45px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.footer_enter_email_input {
+    padding: 0 10px;
+    width: 200px;
+}
+
+.footer_enter_email_button {
+    font-size: 2rem;
+    padding: 6px;
+    position: absolute;
+}
+
+.footer_enter_email_button button i {
+    color: #747474;
+    position: relative;
+    left: 204px;
+}
+
