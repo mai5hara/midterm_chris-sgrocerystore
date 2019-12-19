@@ -3,13 +3,24 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-#pickupgrid {
+.timepicker {
     width: 800px;
+    margin: 0 auto;
+}
+.timepicker h1 {
+    background-color: #852B2A;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+#pickupgrid {
+    width: 100%;
     display: grid;
     grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
     gap: 0;
     padding: 10px;
-    margin: 0 auto;
+    
 }
 
 .time {
