@@ -1,7 +1,17 @@
+.html{
+   width: 100%;
+}
+
+.mainpage_bigcontainer {
+    width:100%;
+    margin:auto;
+    padding: 0 100px 0 100px;
+    display: inline-block;
+}
+
 .location_bigcontainer {
-width:1200px;
-height:1000px; 
-margin: auto;
+width:100%;
+height:100%; 
 }
 
 .location_collection_title{
@@ -18,32 +28,36 @@ border-color: #65747B;
 
 }
 .head{
-height: 10%;
+width: 100%;
+height: 80px;
 border-style: solid;
 border-width: 0.1px;
 border-color: #65747B;
+display: inline-flex;
+justify-content: space-between;
+align-items: center;
 }
 
+
 .item{
-height: 18%;
+height: 150px;
 border-style: solid;
 border-width: 0.1px;
 border-color: #65747B;
-padding: 0 43px;
+display: inline-flex;
+padding: 20px 0 0 0;
+justify-content: space-between;
 }
+
 
 .blockb{
 width: 49%;
 height: 100%;
 float: left;
-border-style: solid;
-border-width: 0.1px;
-border-color: #65747B;
 }
 
 .search_container{
-box-sizing: border-box;
-text-align: center;
+margin: 0 0 0 40px;
 }
 .search_container input[type="text"]{
 border: 1px solid #999;
@@ -74,45 +88,51 @@ overflow: hidden;
 width: 60%;
 margin: 2em auto;;
 }
+.cp_ipselect {
+	overflow: hidden;
+	width: 90%;
+	margin: 2em auto;
+	text-align: center;
+}
 .cp_ipselect select {
-width: 100%;
-padding-right: 1em;
-cursor: pointer;
-text-indent: 0.01px;
-text-overflow: ellipsis;
-border: none;
-outline: none;
-background: transparent;
-background-image: none;
-box-shadow: none;
--webkit-appearance: none;
-appearance: none;
+	width: 100%;
+	padding-right: 1em;
+	cursor: pointer;
+	text-indent: 0.01px;
+	text-overflow: ellipsis;
+	border: none;
+	outline: none;
+	background: transparent;
+	background-image: none;
+	box-shadow: none;
+	-webkit-appearance: none;
+	appearance: none;
 }
 .cp_ipselect select::-ms-expand {
-display: none;
+    display: none;
 }
 .cp_ipselect.cp_sl01 {
-position: relative;
-border: 1px solid #bbbbbb;
-border-radius: 2px;
-background: #ffffff;
+	position: relative;
+	border: 1px solid #bbbbbb;
+	border-radius: 2px;
+	background: #ffffff;
 }
 .cp_ipselect.cp_sl01::before {
-position: absolute;
-top: 0.8em;
-right: 0.9em;
-width: 0;
-height: 0;
-padding: 0;
-content: '';
-border-left: 6px solid transparent;
-border-right: 6px solid transparent;
-border-top: 6px solid #666666;
-pointer-events: none;
+	position: absolute;
+	top: 0.8em;
+	right: 0.9em;
+	width: 0;
+	height: 0;
+	padding: 0;
+	content: '';
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #666666;
+	pointer-events: none;
 }
 .cp_ipselect.cp_sl01 select {
-padding: 8px 38px 8px 8px;
-color: #666666;
+	padding: 8px 38px 8px 8px;
+	color: #666666;
 }
 
 .btn-flat-border {
@@ -131,44 +151,68 @@ color: white;
 }
 #box1{
 color:#65747B;
-width: 13%;
+width: 20%;
 height: 100%;
 float: left;
 text-align: center;
-padding: 35px 0 0 0;  
+padding: 30px 0 0 0 ;
 }
 #box2{
-width: 53%;
+width: 60%;
 float: left;
 }
 
 #box3{
-width: 33%;
+width: 20%;
 height: 100%;
 float: left;
 vertical-align: middle;
-text-align: center;
-padding: 32px 0 0 0;
+padding: 23px 0px 0 3px ;
 }
 
 #box4{
 width: 10%;
-height: 100%;
 float: left;
-background-color: aqua;
-margin: auto;
+padding: 0 0 0 10px;
 }
+
 #box5{
-width: 70%;
-height: 100%;
+width: 65%;
 float: left;
-background-color: antiquewhite;
-margin: auto;
+
 }
 #box6{
-width: 20%;
-height: 100%;
+width: 25%;
 float: left;
-background-color: #999;
-margin: auto;
+margin: 5px;
+}
+
+.storename{
+    padding: 0;
+}
+.openingtime{
+    padding: 16px 0 0 0 ;
+    color: #852B2A;
+}
+
+
+.btn-flat-border2 {
+display: inline-block;
+padding: 0.2em 1em;
+text-decoration: none;
+color:  #FFFFFF;
+background-color:  #852B2A;
+transition: .4s;
+text-align: center;
+border-radius: 3px;
+transition: .4s;
+}
+
+
+.btn-flat-border2:hover {
+background-color:   #FFFFFF;
+color:  #852B2A;
+border-style: solid;
+border-width: 2px;
+border-color: #852B2A;
 }

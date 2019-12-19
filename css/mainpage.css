@@ -4,8 +4,7 @@ html{
 }
 
 .mainpage_bigcontainer {
-    width:1000px;
-    height:1000px;  
+    width:100%;
     margin:auto;
     padding: 0 100px 0 100px;
     display: inline-block;
@@ -14,10 +13,6 @@ html{
 .mainpage_collection_title{
     color: #2E2E2E;
     text-align: center;
-}
-.mainpage_arrow_containers{
-    width:5%;
-    height:10%; 
 }
 
 .mainpage_product_containers{
@@ -109,16 +104,18 @@ html{
     float: left;
     width: 15%;
     height: 20%;
-    margin: 30px 15px 0 1.5px;   
+    margin: 30px 15px 0 1.5px; 
+    text-align: center;  
  }
 
 .mainpage_bigcontainer2 {
-    width:990px;
-    height:1000px;  
-    margin:0 0 0 20;
     padding: 0;
     display: inline-block;
+    text-align: center;
+    margin: 20px 0 20px 24px;
 }
+
+
 .btn-border {
     width: 145px;
     height: 40px;
@@ -144,7 +141,10 @@ html{
   .tae {
     display:flex;
     overflow-x:scroll;
-    }
+    width: 90%;
+    text-align: center;
+    margin: 0px 0 0 54px;
+}
     
  
 
