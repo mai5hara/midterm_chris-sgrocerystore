@@ -1,18 +1,26 @@
-<<<<<<< HEAD
-=======
 * {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
->>>>>>> ffb23e4d8080116d429255ab96f5b247123365e9
-#pickupgrid {
+.timepicker {
     width: 800px;
+    margin: 0 auto;
+}
+.timepicker h1 {
+    background-color: #852B2A;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+#pickupgrid {
+    width: 100%;
     display: grid;
     grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
     gap: 0;
     padding: 10px;
-    margin: 0 auto;
+    
 }
 
 .time {
@@ -21,12 +29,6 @@
 
 .unavailable {
     background-color: lightgray;
-<<<<<<< HEAD
-}
-
-.available {
-    background-color: lightgreen;
-=======
     cursor: not-allowed;
 }
 
@@ -34,5 +36,4 @@
     background-color: #045757;
     color: #F0BA58;
     cursor: pointer;
->>>>>>> ffb23e4d8080116d429255ab96f5b247123365e9
 }
