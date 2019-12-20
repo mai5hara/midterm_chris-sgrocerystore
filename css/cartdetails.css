@@ -119,6 +119,7 @@ h1 {
 
 .cart_details_items img {
     width: 10%;
+    height: auto;
 }
 
 .cart_details_items_price_p {
