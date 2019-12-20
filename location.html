@@ -188,6 +188,7 @@
                 <a class="header_totalprice_value" href="#">$0.00<i class="fas fa-chevron-down"></i></a>
                 
                 <div class="header_cart_button header_cart_flyout">
+                    <!--
                     <div class="header_cart_warning">
                         <span>Your cart is empty</span>
                     </div>
@@ -197,6 +198,7 @@
                         </div>
                         <a class="header_cart_summary_content_checkout" href="checkout.html">CHECKOUT</a>
                     </div>
+                    -->
                 </div>
             </div>
             <div class="header_checkout header_right">
@@ -309,6 +311,25 @@
         </div>
     </div>
 </body>
+
+<!--Menu fix-->
+<script>
+    var secondLevel = document.getElementsByClassName("header_menu_secondlevel");
+    var myArr = [...secondLevel];
+
+        myArr.forEach((x) => {
+            x.childNodes.forEach(c => {
+                c.onmouseenter = () => { 
+                    c.children[1].style.visibility = 'visible'; 
+                    c.children[1].style.opacity = 1;
+                };
+                c.onmouseleave = () => { 
+                    c.children[1].style.visibility = 'hidden'; 
+                    c.children[1].style.opacity = 0;
+                };
+            })
+        });
+</script>
 
 <footer>
     <div class="footer_wrap">
