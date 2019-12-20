@@ -28,11 +28,12 @@
     display: inline-block;
     background-color: white;
     line-height: 60px;
-    width: 170px;
+    width: 150px;
     height: 60px;
     border-radius: 10px;
     box-shadow: 0 7px gray;
     font-size: 15px;
+    font-weight: bold;
     border: 1px solid gray;
 }
 .product-nav a:hover{

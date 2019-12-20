@@ -46,6 +46,11 @@
     text-align: right;
 }
 
-.acceptance button {
+.acceptance .button {
+    width: fit-content;
     background-color: #852B2A;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
 }

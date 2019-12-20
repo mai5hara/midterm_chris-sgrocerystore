@@ -1,3 +1,7 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
 #product-noodles{
     width:400px;
     height:400px;
@@ -36,6 +40,7 @@
     background-color:white;
     font-size:15px; 
     border-radius:10px;
+    border: 2px solid black;
 }
 #product-number{
     color:gray;
@@ -112,8 +117,11 @@
     color:gray;
     margin-top: 5px;
 }
-#product-relate1{
+.product-relate1{
     margin-bottom:0px;
+}
+.product-relate1:hover{
+    font-weight: bold;
 }
 #product-relate2{
     margin-top:0px;
@@ -145,6 +153,7 @@
     height:20px;
     font-size: 12px;
     border-radius:10px;
+    border:1px solid black;
 }
 .product-all{
     width:200px;
