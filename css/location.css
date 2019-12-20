@@ -1,115 +1,65 @@
-.html{
-   width: 100%;
-}
-
+/*************************
+   setting of table size
+*************************/
 .mainpage_bigcontainer {
-    width:100%;
-    margin:auto;
-    padding: 0 100px 0 100px;
-    display: inline-block;
+    margin:30px 0px 0px 0px;
+	padding: 0px 100px 0px 100px;
+	display: inline-block;
 }
-
-.location_bigcontainer {
-width:100%;
-height:100%; 
-}
-
 .location_collection_title{
-text-align: center;
-padding:100;
-}
-.blocka{
-width: 49%;
-height: 100%;
-float: left;
-border-style: solid;
-border-width: 0.1px;
-border-color: #65747B;
-
-}
-.head{
-width: 100%;
-height: 80px;
-border-style: solid;
-border-width: 0.1px;
-border-color: #65747B;
-display: inline-flex;
-justify-content: space-between;
-align-items: center;
-}
-
-
-.item{
-height: 150px;
-border-style: solid;
-border-width: 0.1px;
-border-color: #65747B;
-display: inline-flex;
-padding: 20px 0 0 0;
-justify-content: space-between;
-}
-
-
-.blockb{
-width: 49%;
-height: 100%;
-float: left;
-}
-
-.search_container{
-margin: 0 0 0 40px;
-}
-.search_container input[type="text"]{
-border: 1px solid #999;
-padding: 3px 5px;
-border-radius: 20px;
-height: 2.5em;
-width: 900px;
-overflow: hidden;
-margin: 10px;
-}
-.search_container input[type="text"]:focus {
-outline: 0;
-
-}
-.search_container input[type="submit"]{
-cursor: pointer;
-font-family: FontAwesome;
-font-size: 1.3em;
-border: none;
-background: none;
-color: #65747B;
-outline : none;
-display: inline-block;
-vertical-align: middle;
-}
-.cp_ipselect {
-overflow: hidden;
-width: 60%;
-margin: 2em auto;;
-}
-.cp_ipselect {
-	overflow: hidden;
-	width: 90%;
-	margin: 2em auto;
 	text-align: center;
+	margin: 30px;
 }
-.cp_ipselect select {
+.vertical_boxA{
+	width: 50%;
+	height: 100%;
+	border-width: 0.05px;
+	border-style: solid;
+	border-color: #65747B;
+	float: left;
+}
+.vertical_boxB{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.firstbox_of_A{
 	width: 100%;
-	padding-right: 1em;
-	cursor: pointer;
-	text-indent: 0.01px;
-	text-overflow: ellipsis;
-	border: none;
-	outline: none;
-	background: transparent;
-	background-image: none;
-	box-shadow: none;
-	-webkit-appearance: none;
-	appearance: none;
+	height: 80px;
+	align-items: center;
+	border-style: solid;
+	border-width: 0.05px;
+	border-color: #65747B;
+	display: inline-flex;
+	justify-content: space-between;
 }
-.cp_ipselect select::-ms-expand {
-    display: none;
+.otherbox_of_A{
+	width: 100%;
+	height: 150px;
+	padding: 20px 0px 0px 0px;
+	border-style: solid;
+	border-width: 0.1px;
+	border-color: #65747B;
+	display: inline-flex;
+	justify-content: space-between;
+}
+/*************************
+	showing
+*************************/
+#box1{
+	color:#65747B;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	padding: 30px 0px 0px 0px;
+	float: left;	
+}
+/*************************
+	dropdownlist
+*************************/
+#box2{
+	width: 60%;
+	float: left;
 }
 .cp_ipselect.cp_sl01 {
 	position: relative;
@@ -134,85 +84,74 @@ margin: 2em auto;;
 	padding: 8px 38px 8px 8px;
 	color: #666666;
 }
-
-.btn-flat-border {
-display: inline-block;
-padding: 0.2em 1em;
-text-decoration: none;
-color:  #65747B;
-border: solid 2px  #65747B;
-border-radius: 3px;
-transition: .4s;
-}
-
-.btn-flat-border:hover {
-background:#65747B;
-color: white;
-}
-#box1{
-color:#65747B;
-width: 20%;
-height: 100%;
-float: left;
-text-align: center;
-padding: 30px 0 0 0 ;
-}
-#box2{
-width: 60%;
-float: left;
-}
-
+/*************************
+	filter button
+*************************/
 #box3{
-width: 20%;
-height: 100%;
-float: left;
-vertical-align: middle;
-padding: 23px 0px 0 3px ;
+	width: 20%;
+	height: 100%;
+	vertical-align: middle;
+	padding: 23px 0px 0 3px ;
+	float: left;
 }
-
+.btn-flat-border {
+	display: inline-block;
+	padding: 0.2em 1em;
+	text-decoration: none;
+	color:  #65747B;
+	border: solid 2px  #65747B;
+	border-radius: 3px;
+	transition: .4s;
+}
+.btn-flat-border:hover {
+	background:#65747B;
+	color: white;
+}
+/*************************
+	location icon
+*************************/
 #box4{
-width: 10%;
-float: left;
-padding: 0 0 0 10px;
+	color: #852B2A;
+	width: 10%;
+	height: 100%;
+	padding: 0px 0px 0px 15px;
+	float: left;
 }
-
+/*************************
+	store address
+*************************/
 #box5{
-width: 65%;
-float: left;
-
-}
-#box6{
-width: 25%;
-float: left;
-margin: 5px;
-}
-
-.storename{
-    padding: 0;
+	width: 65%;
+	height: 100%;
+	float: left;
 }
 .openingtime{
-    padding: 16px 0 0 0 ;
-    color: #852B2A;
+	color: #852B2A;
+    padding: 16px 0px 0px 0px ;
 }
-
-
+/*************************
+	pickup button
+*************************/
+#box6{
+	width: 25%;
+	height: 100%;
+	margin: 5px;
+	float: left;
+}
 .btn-flat-border2 {
-display: inline-block;
-padding: 0.2em 1em;
-text-decoration: none;
-color:  #FFFFFF;
-background-color:  #852B2A;
-transition: .4s;
-text-align: center;
-border-radius: 3px;
-transition: .4s;
+	text-align: center;
+	border-radius: 3px;
+	text-decoration: none;
+	color:  #FFFFFF;
+	background-color:  #852B2A;
+	display: inline-block;
+	padding: 0.2em 1.5em;
+	transition: .4s;
 }
-
-
 .btn-flat-border2:hover {
-background-color:   #FFFFFF;
-color:  #852B2A;
-border-style: solid;
-border-width: 2px;
-border-color: #852B2A;
+	color:  #852B2A;
+	background-color:   #FFFFFF;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #852B2A;
 }
