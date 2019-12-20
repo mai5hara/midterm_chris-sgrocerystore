@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/mainpage.css">
+    <LINK rel="SHORTCUT ICON" href="./images/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>Welcome to Chris' Grocery Store</title>
+    <script src="https://kit.fontawesome.com/1e1751db70.js" crossorigin="anonymous"></script>
+</head>
+    <header>
+        <div class="header_top">
+            <a href="./mainpage.html" class="go-to-mainpage"><h1><img src="./images/Picture2.png"></h1></a>
+            <div class="header_searchbox">
+                <label for="header_searchinput"></label>
+                <input class="header_searchinput" name="email_sign_up_" type="email" placeholder="Search for product">
+                <button class="header_searchinput_button_element">
+                    <a href="./DepartmentsPage/Food.html"><i class="fas fa-search"></i></a>
+                </button>
+            </div>
+        
+            <div class="header_booking_selector">
+                <a href="./location.html" class="header_booking_location"><span>STORE LOCATOR</span></a>
+                <a href="#" class="header_booking_order"><span>START A NEW ORDER</span></a>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <ul class="header_listleft">
+                <li class="header_department header_menu_dropdown"><a class="header_init_bottom">DEPARTMENT<i class="fas fa-chevron-down"></i></a>
+                    <ul class="header_menu_secondlevel">
+                        <li class="header_menu_secondlevel_list"><a href="#">Food</a>
+                            <ul class="header_menu_thirdlevel">
+                                <li><a href="./DepartmentsPage/Food.html">See All Food</a></li>
+                                <li><a href="./DepartmentsPage/Holiday.html">Holiday</a></li>
+                                <li><a href="./DepartmentsPage/Fruits&Vegetable.html">Fruits & Vegetables</a></li>
+                                <li><a href="./DepartmentsPage/Deli&Readymeals.html">Deli & Ready Meals</a></li>
+                                <li><a href="./DepartmentsPage/Bakery.html">Bakery</a></li>
+                                <li><a href="./DepartmentsPage/Meat&Seafood.html">Meat & Seafood</a></li>
+                                <li><a href="./DepartmentsPage/Dairy&Eggs.html">Dairy and Eggs</a></li>
+                                <li><a href="./DepartmentsPage/Drinks.html">Drinks</a></li>
+                                <li><a href="./DepartmentsPage/Ramen.html">Ramen</a></li>
+                                <li><a href="#">Frozen</a></li>
+                                <li><a href="#">Pantry</a></li>
+                                <li><a href="#">Natural & Organic</a></li>
+                                <li><a href="#">International Foods</a></li>
+                            </ul>
+                        </li>
+                        <li class="header_menu_secondlevel_list"><a href="#">Body</a>
+                            <ul class="header_menu_thirdlevel">
+                                <li><a href="#">See All Baby</a></li>
+                                <li><a href="#">Baby Care</a></li>
+                                <li><a href="#">Baby Safety</a></li>
+                                <li><a href="#">Baby Toys</a></li>
+                                <li><a href="#">Car Seats & Strollers</a></li>
+                                <li><a href="#">Changing & Potty Training</a></li>
+                                <li><a href="#">Feeding & Nursing</a></li>
+                                <li><a href="#">Gear</a></li>
+                                <li><a href="#">Gifts</a></li>
+                                <li><a href="#">Pantry</a></li>
+                                <li><a href="#">Nursery</a></li>
+                                <li><a href="#">IPregnancy & Maternity</a></li>
+                            </ul>
+                        </li>
+                        <li class="header_menu_secondlevel_list"><a href="#">Home & Living</a>
+                            <ul class="header_menu_thirdlevel">
+                                <li><a href="#">See All Home & Living</a></li>
+                                <li><a href="#">Bath</a></li>
+                                <li><a href="#">Bedding</a></li>
+                                <li><a href="#">Cleaning Products</a></li>
+                                <li><a href="#">Floral & Garden</a></li>
+                                <li><a href="#">Changing & Potty Training</a></li>
+                                <li><a href="#">Furniture</a></li>
+                                <li><a href="#">Home Decor</a></li>
+                                <li><a href="#">Home Storage & Organization</a></li>
+                                <li><a href="#">Irons, Steamers & Accessories</a></li>
+                                <li><a href="#">Kitchen & Dining</a></li>
+                                <li><a href="#">Lighting & Ceiling Fans</a></li>
+                                <li><a href="#">Seasonal Decor</a></li>
+                                <li><a href="#">Winter Essentials</a></li>
+                            </ul>
+                        </li>
+                        <li class="header_menu_secondlevel_list"><a href="#">Health & Beauty</a>
+                            <ul class="header_menu_thirdlevel">
+                                <li><a href="#">See All Health & Beauty</a></li>
+                                <li><a href="#">Baby & Child Care</a></li>
+                                <li><a href="#">Bath & Body</a></li>
+                                <li><a href="#">Beauty Products</a></li>
+                                <li><a href="#">Health Care</a></li>
+                                <li><a href="#">Nutrition & Wellness</a></li>
+                                <li><a href="#">Personal Care</a></li>
+                            </ul>
+                        </li>
+                        <li class="header_menu_secondlevel_list"><a href="#">Apparel & Accessories</a>
+                            <ul class="header_menu_thirdlevel">
+                                <li><a href="#">See All Apparel & Accessories</a></li>
+                                <li><a href="#">Baby</a></li>
+                                <li><a href="#">Boy's</a></li>
+                                <li><a href="#">Costumes & Accessories</a></li>
+                                <li><a href="#">Novelty</a></li>
+                                <li><a href="#">Shoe Care</a></li>
+                                <li><a href="#">Women's</a></li>
+                            </ul>
+                        </li>
+                        <li class="header_menu_secondlevel_list"><a href="#">Computers & Electronics</a>
+                            <ul class="header_menu_thirdlevel">
+                                <li><a href="#">See All Computers & Electronics</a></li>
+                                <li><a href="#">Accessories & Supplies</a></li>
+                                <li><a href="#">Camera & Photo</a></li>
+                                <li><a href="#">Home Audio & Video</a></li>
+                                <li><a href="#">Television & Home Theater</a></li>
+                            </ul>
+                        </li>
+                        <li class="header_menu_secondlevel_list"><a href="#">Office & School Supplies</a>
+                            <ul class="header_menu_thirdlevel">
+                                <li><a href="#">See All Office & School Supplies</a></li>
+                                <li><a href="#">Educational Products & Crafts</a></li>
+                                <li><a href="#">Filing Products</a></li>
+                                <li><a href="#">Office Furniture</a></li>
+                                <li><a href="#">Presentation Boards</a></li>
+                                <li><a href="#">Tape, Adhesives & Fasteners</a></li>
+                                <li><a href="#">Workspace Organizers & Accessories</a></li>
+                                <li><a href="#">Writing & Correction Supplies</a></li>
+                            </ul>
+                        </li>
+                        <li class="header_menu_secondlevel_list"><a href="#">Toys, Games & Hobbies</a>
+                            <ul class="header_menu_thirdlevel">
+                                <li><a href="#">See All Toys, Games & Hobbies</a></li>
+                                <li><a href="#">Action Figures</a></li>
+                                <li><a href="#">Building Sets & Blocks</a></li>
+                                <li><a href="#">Children's Electronics</a></li>
+                                <li><a href="#">Dolls & Accessories</a></li>
+                                <li><a href="#">Dress Up & Pretend</a></li>
+                                <li><a href="#">Educational Toys</a></li>
+                                <li><a href="#">Games</a></li>
+                                <li><a href="#">Hobbies</a></li>
+                                <li><a href="#">Novelty Toys</a></li>
+                                <li><a href="#">Outdoor Play</a></li>
+                                <li><a href="#">Party Supplies</a></li>
+                                <li><a href="#">Plush Stuffed Animals & Toys</a></li>
+                                <li><a href="#">Puzzles</a></li>
+                                <li><a href="#">Toddler Toys</a></li>
+                                <li><a href="#">Vehicles</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header_menu_dropdown"><a href="#" class="header_init_bottom">MY SHOP<i class="fas fa-chevron-down"></i></a>
+                    <ul class="header_menu_secondlevel">
+                        <li><a href="#">Most Purchased</a></li>
+                        <li><a href="#">Past Orders</a></li>
+                        <li><a href="#">Shopping List</a></li>
+                    </ul>
+                </li>
+                <li class="header_menu_dropdown"><a href="#" class="header_init_bottom">WHAT’S NEW<i class="fas fa-chevron-down"></i></a>
+                    <ul class="header_menu_secondlevel">
+                        <li><a href="#">Holiday</a></li>
+                        <li><a href="#">Shop by Brand</a></li>
+                        <li><a href="#">Online Exclusives</a></li>
+                    </ul>
+                </li>
+                <li class="header_menu_dropdown"><a href="#" class="header_init_bottom">FLYER & DEALS<i class="fas fa-chevron-down"></i></a>
+                    <ul class="header_menu_secondlevel">
+                        <li><a href="#">All Deals</a></li>
+                        <li><a href="#">Print Flyer</a></li>
+                        <li><a href="#">Coupons</a></li>
+                    </ul>
+                </li>
+                <li class="header_menu_dropdown"><a href="#" class="header_init_bottom">SERVICES<i class="fas fa-chevron-down"></i></a>
+                    <ul class="header_menu_secondlevel">
+                        <li><a href="#">Dietitians</a></li>
+                        <li><a href="#">Optical</a></li>
+                        <li><a href="#">Medical Clinics</a></li>
+                        <li><a href="#">Pharmacy Services</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="header_rightwrap">
+                <div class="header_signin header_right">
+                    <a href="./register.html"><i class="fas fa-user-alt"></i>SIGN IN</a>
+                </div>
+                <div class="header_totalprice header_right">
+                    <a class="header_totalprice_value" href="#">$0.00<i class="fas fa-chevron-down"></i></a>
+                    
+                    <!-- <div class="header_cart_button header_cart_flyout">
+                        <div class="header_cart_warning">
+                            <span>Your cart is empty</span>
+                        </div>
+                        <div class="header_cart_summary">
+                            <div class="header_cart_summary_content">
+                                <span class="header_cart_summary_content_text">SUBTOTAL : $0.00</span>
+                            </div>
+                            <a class="header_cart_summary_content_checkout" href="checkout.html">CHECKOUT</a>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="header_checkout header_right">
+                    <a href="./checkout.html">CHECKOUT</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<body>
+    <img src="./images/holiday.jpg" alt=""width=100%>
+    <h1 class="mainpage_collection_title">- Get Started Shopping With These Items -</h1>
+
+    <div class="mainpage_bigcontainer">
+        <div class="mainpage_scroll">
+            <div class="mainpage_product_containers">
+                <a class="hover4" href="./product.html" >
+                    <img src="./images/products/noodle.png" alt="" width="147px" height="147px">
+                </a>
+                <h4 class="mainpage_product_name">Jinmailang Ramen Noodle</h4>
+                <h4 class="mainpage_product_price">$1.68ea</h4>
+                <p class="mainpage_product_price_per_unit">$0.88/100g</p>
+                <p class="mainpage_pickup_message"><i class="fas fa-shopping-bag"></i> pickup only</p>
+                <a href="./cartdetails.html" class="btn-square-so-pop">ADD</a>
+                <a href="./addList.html" class="btn-square-so-pop2">ADD TO LIST</a>
+            </div>
+            <div class="mainpage_product_containers">
+                <a class="hover4" href="./product.html" >
+                    <img src="./images/products/akaniku.png" alt="" width="147px" height="147px">
+                </a>
+                <h4 class="mainpage_product_name">NEILSON Homogenized Milk 4L</h4>
+                <h4 class="mainpage_product_price">$5.17ea</h4>
+                <p class="mainpage_product_price_per_unit">$0.13/ 100mL </p>
+                <p class="mainpage_pickup_message"><i class="fas fa-shopping-bag"></i> pickup only</p>
+                <a href="./cartdetails.html" class="btn-square-so-pop">ADD</a>
+                <a href="./addList.html" class="btn-square-so-pop2">ADD TO LIST</a>
+            </div>
+
+            <div class="mainpage_product_containers">
+                <a class="hover4" href="./product.html" >
+                    <img src="./images/products/shironiku.png" alt="" width="147px" height="147px">
+                </a>
+                <h4 class="mainpage_product_name">NEILSON 1% Milk, Partly Skimmed 4L</h4> 
+                <h4 class="mainpage_product_price">$4.39ea</h4>
+                <p class="mainpage_product_price_per_unit"> $0.11/ 100mL </p>
+                <p class="mainpage_pickup_message"><i class="fas fa-shopping-bag"></i> pickup only</p>
+                <a href="./cartdetails.html" class="btn-square-so-pop">ADD</a>
+                <a href="./addList.html" class="btn-square-so-pop2">ADD TO LIST</a>
+            </div>
+            
+            <div class="mainpage_product_containers">
+                <a class="hover4" href="./product.html" >
+                    <img src="./images/products/ichigo.png" alt="" width="147px" height="147px">
+                </a>
+                <h4 class="mainpage_product_name">Strawberries 454 g</h4>
+                <h4 class="mainpage_product_price">$6.98ea</h4>
+                <p class="mainpage_product_price_per_unit">$1.54/ 100g</p>
+                <p class="mainpage_pickup_message"><i class="fas fa-shopping-bag"></i> pickup only</p>
+                <a href="./cartdetails.html" class="btn-square-so-pop">ADD</a>
+                <a href="./addList.html" class="btn-square-so-pop2">ADD TO LIST</a>
+            </div>
+        
+            <div class="mainpage_product_containers">
+                <a class="hover4" href="./product.html" >
+                    <img src="./images/products/cucumbers.png" alt="" width="147px" height="147px">
+                </a>
+                <h4 class="mainpage_product_name">English Cucumbers</h4>
+                <h4 class="mainpage_product_price">$1.98ea</h4>
+                <p class="mainpage_product_price_per_unit">$13.18/ 1kg</p>
+                <p class="mainpage_pickup_message"><i class="fas fa-shopping-bag"></i> pickup only</p>
+                <a href="./cartdetails.html" class="btn-square-so-pop">ADD</a>
+                <a href="./addList.html" class="btn-square-so-pop2">ADD TO LIST</a>
+            </div> 
+            
+            <div class="mainpage_product_containers">
+                <a class="hover4" href="./product.html" >
+                    <img src="./images/products/20007535001_front_a01.png" alt="" width="147px" height="147px">
+                </a>
+                <h4 class="mainpage_product_name">Red Peppers</h4>
+                <h4 class="mainpage_product_price">$2.10(est.)ea</h4>
+                <p class="mainpage_product_price_per_unit">$13.18/ 1kg</p>
+                <p class="mainpage_pickup_message"><i class="fas fa-shopping-bag"></i> pickup only</p>
+                <a href="./cartdetails.html" class="btn-square-so-pop">ADD</a>
+                <a href="./addList.html" class="btn-square-so-pop2">ADD TO LIST</a>
+            </div>
+
+            <div class="mainpage_product_containers">
+                <a class="hover4" href="./product.html" >
+                    <img src="./images/products/Assort.png" alt="" width="147px" height="147px">
+                </a>
+                <h4 class="mainpage_product_name">Assorted Fruit Sours</h4>
+                <h4 class="mainpage_product_price">$0.34/50 g</h4>
+                <p class="mainpage_product_price_per_unit">$0.67/ 100g</p>
+                <p class="mainpage_pickup_message"><i class="fas fa-shopping-bag"></i> pickup only</p>
+                <a href="./cartdetails.html" class="btn-square-so-pop">ADD</a>
+                <a href="./addList.html" class="btn-square-so-pop2">ADD TO LIST</a>
+            </div>
+        
+            <div class="mainpage_product_containers">
+                <a class="hover4" href="./product.html" >
+                    <img src="./images/products/lentil.png" alt="" width="147px" height="147px">
+                </a>
+                <h4 class="mainpage_product_name">Lentils, Red</h4>
+                <h4 class="mainpage_product_price">$0.30/50 g</h4>
+                <p class="mainpage_product_price_per_unit">$13.18/ 1kg</p>
+                <p class="mainpage_pickup_message"><i class="fas fa-shopping-bag"></i> pickup only</p>
+                <a href="./cartdetails.html" class="btn-square-so-pop">ADD</a>
+                <a href="./addList.html" class="btn-square-so-pop2">ADD TO LIST</a>
+            </div>
+
+            <div class="mainpage_product_containers">
+                <a class="hover4" href="./product.html" >
+                    <img src="./images/products/bakary.png" alt="" width="147px" height="147px">
+                </a>
+                <h4 class="mainpage_product_name">Hot Cross Buns</h4>
+                <h4 class="mainpage_product_price">$0.49ea</h4>
+                <p class="mainpage_product_price_per_unit">$0.10/ 100g</p>
+                <p class="mainpage_pickup_message"><i class="fas fa-shopping-bag"></i> pickup only</p>
+                <a href="./cartdetails.html" class="btn-square-so-pop">ADD</a>
+                <a href="./addList.html" class="btn-square-so-pop2">ADD TO LIST</a>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="mainpage_collection_title">- BROWSE BY AISLE -</h1>
+        <div class="mainpage_bigcontainer2">
+            <div class="mainpage_sales_containers">
+                <img src="./images/buttons/holiday.jpg" alt="" width="146px" height="160px">
+                <div class="container">
+                    <a href="https://www.realcanadiansuperstore.ca/Holiday/c/RCSS002014000000" class="btn-border">HOLIDAY</a>
+                </div>
+            </div> 
+
+            <div class="mainpage_sales_containers">
+                <img src="./images/buttons/decor.jpg" alt="" width="146px" height="160px">
+                <div class="container">
+                    <a href="https://www.realcanadiansuperstore.ca/Holiday/c/RCSS002014000000" class="btn-border">DECOR</a>
+                </div>
+            </div> 
+
+            <div class="mainpage_sales_containers">
+                <img src="./images/buttons/entertaining.jpg" alt="" width="146px" height="160px">
+                <div class="container">
+                    <a href="https://www.realcanadiansuperstore.ca/Holiday/c/RCSS002014000000" class="btn-border">ENTARTAINING</a>
+                </div>
+            </div> 
+
+            <div class="mainpage_sales_containers">
+                <img src="./images/buttons/gifting.jpg" alt="" width="146px" height="160px">
+                <div class="container">
+                    <a href="https://www.realcanadiansuperstore.ca/Holiday/c/RCSS002014000000" class="btn-border">GIFTING</a>
+                </div>
+            </div> 
+
+            <div class="mainpage_sales_containers">
+                <img src="./images/buttons/pcinsiders.jpg" alt="" width="146px" height="160px">
+                <div class="container">
+                    <a href="https://www.realcanadiansuperstore.ca/Holiday/c/RCSS002014000000" class="btn-border">PC INSIDERS</a>
+                </div>
+            </div> 
+
+            <div class="mainpage_sales_containers">
+                <img src="./images/buttons/shopbycategory.png" alt="" width="146px" height="160px">
+                <div class="container">
+                    <a href="https://www.realcanadiansuperstore.ca/Holiday/c/RCSS002014000000" class="btn-border">SHOP BY CATEGORY</a>
+                </div>
+            </div> 
+
+            <div class="mainpage_sales_containers">
+                <img src="./images/buttons/fromyourfarmers.png" alt="" width="146px" height="160px">
+                <div class="container">
+                    <a href="https://www.realcanadiansuperstore.ca/Holiday/c/RCSS002014000000" class="btn-border">FROM YOUR FARMERS</a>
+                </div>
+            </div> 
+
+            <div class="mainpage_sales_containers">
+                <img src="./images/buttons/internationalfoods.png" alt="" width="146px" height="160px">
+                <div class="container">
+                    <a href="https://www.realcanadiansuperstore.ca/Holiday/c/RCSS002014000000" class="btn-border">INTERNATIONAL FOODS</a>
+                </div>
+            </div> 
+
+            <div class="mainpage_sales_containers">
+                <img src="./images/buttons/10for10.png" alt="" width="146px" height="160px">
+                <div class="container">
+                    <a href="https://www.realcanadiansuperstore.ca/Holiday/c/RCSS002014000000" class="btn-border">10 FOR $10</a>
+                </div>
+            </div> 
+    
+            <div class="mainpage_sales_containers">
+                <img src="./images/buttons/clubpack_size.png" alt="" width="146px" height="160px">
+                <div class="container">
+                    <a href="https://www.realcanadiansuperstore.ca/Holiday/c/RCSS002014000000" class="btn-border">CLUB PACK SIZE</a>
+                </div>
+            </div> 
+
+            <div class="mainpage_sales_containers">
+                <img src="./images/buttons/petcentre.png" alt="" width="146px" height="160px">
+                <div class="container">
+                    <a href="https://www.realcanadiansuperstore.ca/Holiday/c/RCSS002014000000" class="btn-border">PET CENTRE</a>
+                </div>
+            </div> 
+
+            <div class="mainpage_sales_containers">
+                <img src="./images/buttons/beautyessentials.png" alt="" width="146px" height="160px">
+                <div class="container">
+                    <a href="https://www.realcanadiansuperstore.ca/Holiday/c/RCSS002014000000" class="btn-border">BEAUTY ESSENTIALS</a>
+                </div>
+            </div>   
+        </div> 
+</body>
+
+<footer>
+    <div class="footer_wrap">
+        <div class="footer_navigation_wrap">
+            <div class="footer_navigation">
+                <span class="footer_navigation_title">Quick Links</span>
+                <nav class="footer_navigation_list">
+                    <li class="footer_navigation_list_item">
+                        <a href="#">Weekly Flyer</a>
+                    </li>
+                    <li class="footer_navigation_list_item">
+                        <a href="#">PC Express</a>
+                    </li>
+                    <li class="footer_navigation_list_item">
+                        <a href="./location.html">Store Locator</a>
+                    </li>
+                    <li class="footer_navigation_list_item">
+                        <a href="#">Refer a Friend</a>
+                    </li>
+                    <li class="footer_navigation_list_item">
+                        <a href="#">Delivery</a>
+                    </li>
+                    <li class="footer_navigation_list_item">
+                        <a href="#">Online Exclusives</a>
+                    </li>
+                </nav>
+            </div>
+            <div class="footer_navigation">
+                <span class="footer_navigation_title">Orders</span>
+                <nav class="footer_navigation_list">
+                    <li class="footer_navigation_list_item">
+                        <a href="#">Substitutions</a>
+                    </li>
+                    <li class="footer_navigation_list_item">
+                        <a href="#">Returns & Exchanges</a>
+                    </li>
+                    <li class="footer_navigation_list_item">
+                        <a href="#">Payments & Process</a>
+                    </li>
+                </nav>
+            </div>
+            <div class="footer_navigation">
+                <span class="footer_navigation_title">About</span>
+                <nav class="footer_navigation_list">
+                    <li class="footer_navigation_list_item">
+                        <a href="./contact.html">Contact Us</a>
+                    </li>
+                    <li class="footer_navigation_list_item">
+                        <a href="#">FAQs</a>
+                    </li>
+                    <li class="footer_navigation_list_item">
+                        <a href="#">Who We Are</a>
+                    </li>
+                    <li class="footer_navigation_list_item">
+                        <a href="#">Seafood Responsibility</a>
+                    </li>
+                    <li class="footer_navigation_list_item">
+                        <a href="#">About Online Shopping</a>
+                    </li>
+                    <li class="footer_navigation_list_item">
+                        <a href="#">About PC Express Locations</a>
+                    </li>
+                </nav>
+            </div>
+        </div>
+        <div class="footer_sns_icons">
+            <a href="#"><img src="https://img.icons8.com/color/48/000000/twitter-circled.png" class="footer_sns_twitter"></a>
+            <a href="#"><img src="https://img.icons8.com/color/48/000000/instagram-new.png" class="footer_sns_instagram"></a>
+            <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook-new.png" class="footer_sns_facebook"></a>
+        </div>
+    </div>
+    <form class="footer_getdeals">
+        <span class="footer_getdeals_title">Get Deals & News</span>
+        <div class="footer_enter_email">
+            <label class="footer_enter_email_label">
+                <!-- <span>Enter Your Email</span> -->
+            </label>
+            <input class="footer_enter_email_input" name="email_sign_up_" type="email" placeholder="Enter Your Email">
+            <div class="footer_enter_email_button">
+                <button class="footer_enter_email_button_element">
+                    <a href="#"><i class="fas fa-arrow-circle-right"></i></a>
+                </button>
+            </div>
+        </div>
+    </form>
+</footer>
+
+<!--Menu fix-->
+<script>
+    var secondLevel = document.getElementsByClassName("header_menu_secondlevel");
+    var myArr = [...secondLevel];
+
+        myArr.forEach((x) => {
+            x.childNodes.forEach(c => {
+                c.onmouseenter = () => { 
+                    c.children[1].style.visibility = 'visible'; 
+                    c.children[1].style.opacity = 1;
+                };
+                c.onmouseleave = () => { 
+                    c.children[1].style.visibility = 'hidden'; 
+                    c.children[1].style.opacity = 0;
+                };
+            })
+        });
+</script>
+</html>
