@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYlabelE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,9 +7,143 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1e1751db70.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/reset.css">
     <title>Contact</title>
 </head>
 <body>
-    
+    <h1 class="contact_title">CONTACT US</h1>
+    <div class="contact_wrap">
+        <div class="contact_wrap_left">
+            <div class="contact_emailus">
+                <h2 class="contact_category_title">EMAIL US</h2>
+                <form class="contact_form">
+                    <p>Note: required fields are marked with a red star (  ).</p>
+                    <div class="contact_row_select_wrap">
+                        <label>What would you like to contact us for:</label>
+                        <div class="contact_row_select">
+                            <select name="reason">
+                                <option value=""></option>
+                                <option value="advertising">INTEREST-BASED-ADVERTISING</option>
+                                <option value="giftcard">GIFT CARD</option>
+                                <option value="pcexpress">PC EXPRESS</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="contact_row_select_wrap">
+                        <label>Issue</label>
+                        <div class="contact_row_select">
+                            <select name="reason">
+                                <option value=""></option>
+                                <option value="advertising">GIFT CARDS FROM OTHER RETAILERTS</option>
+                                <option value="giftcard">PRESIDENT'S CHOISE GIFT CARD</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="contact_row_select_wrap">
+                        <label>Is a Response Required?  Is a Response Required?</label>
+                        <div class="contact_row_select">
+                            <select name="response">
+                                <option value=""></option>
+                                <option value="yes">YES</option>
+                                <option value="no">NO</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="contact_row_select_wrap">
+                        <lebel>How Should We Respond?</lebel>
+                        <div class="contact_row_select">
+                            <select name="respond">
+                                <option value=""></option>
+                                <option value="phone">PHONE</option>
+                                <option value="email">EMAIL</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="contact_row_text contact_namebox">
+                        <div class="contact_name contact_name_firstname">
+                            <label for="firstname" class="contact_text">First Name</label>
+                            <input id="firstname" type="text" name="firstname" class="contact_text_field">
+                        </div>
+                        <div class="contact_name">
+                            <label for="lastname" class="contact_text">Last Name</label>
+                            <input id="lastname" type="text" name="lastname" class="contact_text_field">
+                        </div>
+                    </div>
+                    <div class="contact_row_text">
+                        <label for="phone" class="contact_text">Telephone</label>
+                        <input id="phone" type="text" name="phone" class="contact_text_field">
+                    </div>
+                    <div class="contact_row_text contact_productname_box">
+                        <div class="contact_cpu_product contact_productname">
+                            <label for="productname" class="contact_text">Product Name</label>
+                            <input id="productname" type="text" name="productname" class="contact_text_field">
+                        </div>
+                        <div class="contact_cpu_product">
+                            <label for="upccode" class="contact_text">UPC Code</label>
+                            <input id="upccode" type="text" name="upccode" class="contact_text_field">
+                        </div>
+                    </div>
+                    <div class="contact_row_text">
+                        <label for="date" class="contact_text">Best Before Date/Product Code</label>
+                        <input id="date" type="text" name="date" class="contact_text_field">
+                    </div>
+                    <div class="contact_row_text">
+                        <label for="email" class="contact_text">Email Address</label>
+                        <input id="email" type="text" name="email" class="contact_text_field">
+                    </div>
+                    <div class="contact_row_text">
+                        <label for="storename" class="contact_text">Store Name</label><br>
+                        <input id="storename" type="text" name="storename" class="contact_text_field">
+                    </div>
+                    <div class="contact_row_text">
+                        <label for="comment" class="contact_text">Comments</label>
+                        <textarea id="comment" type="text" name="comment" class="contact_text_field"></textarea>
+                    </div>
+                    <div class="contact_submit">
+                        <input type="submit" value="SUBMIT">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="contact_wrap_right">
+            <div class="contact_callus">
+                <h2 class="contact_category_title">CALL US</h2>
+                <section class="contact_section">
+                    <div class="contact_header">
+                        CUSTOMER RELATIONS CENTRE
+                    </div>
+                    <div class="contact_content">
+                        Hours: 08:30 AM - 05:30 PM (M-F)<br>
+                        Toll Free <a href="#">1-866-999-9890</a> (Ontario)
+                    </div>
+                </section>
+                <section class="contact_section">
+                    <div class="contact_content">
+                        Fax : <a href="#">905-861-2387</a>
+                    </div>
+                </section>
+                <section class="contact_section">
+                    <div class="contact_header">
+                        PC EXPRESS
+                    </div>
+                    <div class="contact_content">
+                        Hours: Monday to Sunday 8:00 AM - 12:00 AM EST<br>
+                        Toll Free <a href="#">1-844-295-8219</a>
+                    </div>
+                </section>
+            </div>
+            <div class="contact_writetous">
+                <h2 class="contact_category_title">WRITE TO US</h2>
+                <section class="contact_section">
+                    <div class="contact_content">
+                        Loblaw Companies Limited<br>
+                        1 President's Choice Circle<br>
+                        Brampton, Ontario, L6Y 5S5<br>
+                        Attention: LCL Customer Relations Centre
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

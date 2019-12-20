@@ -30,6 +30,11 @@ header {
     height: auto;
 }
 
+
+.go-to-mainpage{
+    margin-right: 320px; /* making serchbox center */
+}
+
 .header_searchbox {
     display: flex;
     border: 1px solid #b8b8b8;
@@ -193,6 +198,7 @@ header {
     background-color: #F0BA58;
     padding: 2px 7px;
     margin-left: 0;
+    border-radius: 3px;
 }
 
 .header_listleft li {
