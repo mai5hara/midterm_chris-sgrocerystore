@@ -469,5 +469,23 @@
             </div>
         </form>
     </footer>
+    <!--Menu fix-->
+<script>
+    var secondLevel = document.getElementsByClassName("header_menu_secondlevel");
+    var myArr = [...secondLevel];
+
+        myArr.forEach((x) => {
+            x.childNodes.forEach(c => {
+                c.onmouseenter = () => { 
+                    c.children[1].style.visibility = 'visible'; 
+                    c.children[1].style.opacity = 1;
+                };
+                c.onmouseleave = () => { 
+                    c.children[1].style.visibility = 'hidden'; 
+                    c.children[1].style.opacity = 0;
+                };
+            })
+        });
+</script>
 </body>
 </html>
