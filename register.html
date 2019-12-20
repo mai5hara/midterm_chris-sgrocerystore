@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1e1751db70.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/reset.css">
-    
+    <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/register.css">
@@ -26,7 +26,7 @@
 <body>
     <header>
         <div class="header_top">
-            <a href="./mainpage.html" class="go-to-mainpage"><h1><img src="./images/Picture2.png"></h1></a>
+            <a href="./index.html" class="go-to-mainpage"><h1><img src="./images/Picture2.png"></h1></a>
             <div class="header_searchbox">
                 <label for="header_searchinput"></label>
                 <input class="header_searchinput" name="email_sign_up_" type="email" placeholder="Search for product">
@@ -353,6 +353,28 @@
             </div>
         </form>
     </footer>
+
+    
+<!--Menu fix-->
+<script>
+    var secondLevel = document.getElementsByClassName("header_menu_secondlevel");
+    var myArr = [...secondLevel];
+
+        myArr.forEach((x) => {
+            x.childNodes.forEach(c => {
+                c.onmouseenter = () => { 
+                    c.children[1].style.visibility = 'visible'; 
+                    c.children[1].style.opacity = 1;
+                };
+                c.onmouseleave = () => { 
+                    c.children[1].style.visibility = 'hidden'; 
+                    c.children[1].style.opacity = 0;
+                };
+            })
+        });
+</script>
+
 </body>
+
 
 </html>

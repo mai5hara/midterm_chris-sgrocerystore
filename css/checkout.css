@@ -22,13 +22,15 @@ html{
 .checkout-btn{
     width:160px;
     height:50px;
-    background-color:orangered;
+    background-color:#F0BA58;
     color:white;
     font-size:15px; 
     border-radius:10px;
     margin-top:10px;
     margin-bottom: 10px;
-
+}
+.checkout-btn:hover{
+    background-color: #f3aa21;
 }
 .checkout-step{
     padding-left:10%;
@@ -66,6 +68,10 @@ html{
     font-size:15px; 
     border-radius:10px;
     border: 2px solid black;
+    background-color: #b4b4b4;
+}
+#checkout-res:hover{
+    background-color: #a3a3a3;
 }
 #checkout-rev{
     padding-left:20px;
@@ -96,19 +102,35 @@ html{
     margin-top:5%;
     width:250px;
     height:50px;
-    background-color:orangered;
+    background-color:#F0BA58;
     color:white;
     font-size:15px; 
     border-radius:10px;
+    text-align: center;
+    padding-top:10px;
+}
+#summarybtn:hover{
+    background-color: #f3aa21;
+}
+#summarybtn a{
+    text-decoration: none;
 }
 #placeorder{
     width:210px;
     height:50px;
-    background-color:orangered;
+    background-color:#F0BA58;
     color:white;
     font-size:15px; 
     border-radius:10px;
     margin-left:7%;
+    text-align: center;
+    padding-top:10px;
+}
+#placeorder a{
+    text-decoration: none;
+}
+#placeorder:hover{
+    background-color: #f3aa21;
 }
 #ramen{
     width:100px;
@@ -119,4 +141,13 @@ html{
 }
 #checkout-area{
     border: 1px solid black;
+}
+#checkout-location{
+    text-decoration: none;
+}
+#checkout-location:visited{
+    color: #2E2E2E;
+}
+#checkout-location:hover{
+    color: #852B2A;
 }
