@@ -117,8 +117,11 @@ html{
     color:gray;
     margin-top: 5px;
 }
-#product-relate1{
+.product-relate1{
     margin-bottom:0px;
+}
+.product-relate1:hover{
+    font-weight: bold;
 }
 #product-relate2{
     margin-top:0px;

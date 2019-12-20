@@ -1,68 +1,91 @@
+/*************************
+setting of font and size
+*************************/
 html{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-
 .mainpage_bigcontainer {
     width:100%;
-    padding: 0 100px 0 100px;
+    padding-right: 10px;
+    padding-left: 10px;
     display: inline-block;
 }
-
+/*************************
+	title
+*************************/
 .mainpage_collection_title{
     color: #2E2E2E;
     text-align: center;
+    margin-top: 40px;
+    margin-left: 20px;
 }
-
+/*************************
+	detail of products
+*************************/
 .mainpage_product_containers{
    color: #2E2E2E; 
    font-size: small;
    float: left;
-   margin: 0 10px;
-   width: 15%;
+   margin-top: 10px;
+   margin-right: 10px;
+   width: 147px;
    height: 40%;  
 }
-
 .mainpage_product_name{
     color: #2E2E2E;
     width: 98px;
-    height: 60px;
-    margin: 0 0 0 20px;
+    height: 80px;
+    margin-left: 20px;
     text-align: left;
 }
-
 .mainpage_product_weight{
     color: #2E2E2E;
-    margin: 0 0 0 20px;
+    margin-left: 20px;
     text-align: left;
 }
-
 .mainpage_small_container{
     width: 100px;
     height: 100px;
     text-align: left;
 }
-
 .mainpage_product_price{
     color: #2E2E2E;
-    margin: 0 0 0 20px;
+    margin-left: 20px;
     font-weight: bold;
     text-align: left;
 }
-
 .mainpage_product_price_per_unit{
     font-size: x-small;
     color: darkgrey;
-    margin: 0 0 0 20px;
+    margin-left: 20px;
     text-align: left;
 }
 .mainpage_pickup_message{
     color: #2E2E2E;
-    margin: 0 20px;
-    font-size: medium;
+    margin-left: 20px;
+    font-size: small;
     text-align: left;
 }
-
+.mainpage_scroll{
+    display:flex;
+    overflow-x:scroll;
+    width: 90%;
+    text-align: center;
+    margin-left: 54px;
+}
+.hover4 {
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+.hover4:hover {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    transform: translateY(-0.1875em);
+  }
+/*************************
+	ADD button
+*************************/
 .btn-square-so-pop{
     text-align: center;
     position: relative;
@@ -75,80 +98,78 @@ html{
     font-weight: bold;
     border: solid 2px #852B2A;/*線色*/
     width: 147px;
-    height: 20px;
-    margin: 0;
-    display: inline-flex
-    justify-content: space-between;
+    height: 30px;
 }
-  
-  
+/*************************
+	ADD TO LIST button
+*************************/
 .btn-square-so-pop2{
     text-align: center;
     position: relative;
     display: inline-block;
     text-decoration: none;
     color: #2E2E2E;
-    background: #FFFAF3;/*色*/
-    border-radius: 4px;/*角の丸み*/
+    background: #FFFAF3;
+    border-radius: 4px;
     box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
     font-weight: bold;
-    border: solid 2px #852B2A;/*線色*/
+    border: solid 2px #852B2A;
     width: 147px;
-    height: 20px;
+    height: 30px;
     margin:5px 0 0 0;
   }
-
   .btn-square-so-pop:active {
-    /*押したとき*/
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
   }
-
   .btn-square-so-pop2:active {
-    /*押したとき*/
     box-shadow: 0 0 2px #852B2A;
   }
+/*************************
+	Setting of BROWSE BY AISLE
+*************************/ 
+.mainpage_bigcontainer2 {
+    display: inline-block;
+    width: 90%;
+    margin-left:  147px;
+    text-align: center;
+    padding: 0 118px 0 0;
 
-  .mainpage_sales_containers{
+}
+.mainpage_sales_containers{
     float: left;
     width: 15%;
     height: 20%;
-    margin: 30px 15px 0 1.5px; 
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 1.5px; 
     text-align: center;  
     width: 146px;
+    justify-content: center;
  }
-
-.mainpage_bigcontainer2 {
-    padding: 0;
-    display: inline-block;
-    justify-items: center;
-    width: 100%;
-    margin: 0 0 0 50px;    
-}
-
-
+/*************************
+ Buttons of BROWSE BY AISLE
+*************************/ 
 .btn-border {
     width: 145px;
     height: 40px;
-    display: table-cell;
     text-align: center;
     vertical-align: middle;
-    margin: auto 0;
     border: 2px solid #852B2A;
     font-size: 14px;
     color: #852B2A;
     text-decoration: none;
+    display: table-cell;
     font-weight: bold;
     border-radius: 4px;
     transition: .4s;
-  }
-  
-  .btn-border:hover {
+    line-height:initial ;
+}
+.btn-border:hover {
     background-color: #852B2A;
     border-color: #852B2A;
     color: #FFF;
-  }
-
-  .tae {
+}
+.mainpage_scroll{
     display:flex;
     overflow-x:scroll;
     width: 90%;

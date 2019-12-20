@@ -7,6 +7,11 @@ body {
     font-size: 1em;
     letter-spacing: 1pt;
     font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact_wrap {
