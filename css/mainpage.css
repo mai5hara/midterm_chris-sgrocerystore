@@ -132,6 +132,8 @@ html{
     width: 90%;
     margin-left:  147px;
     text-align: center;
+    padding: 0 118px 0 0;
+
 }
 .mainpage_sales_containers{
     float: left;
