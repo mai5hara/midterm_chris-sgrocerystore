@@ -74,6 +74,15 @@ html{
     text-align: center;
     margin-left: 54px;
 }
+.hover4 {
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+.hover4:hover {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    transform: translateY(-0.1875em);
+  }
 /*************************
 	ADD button
 *************************/
@@ -121,7 +130,7 @@ html{
 .mainpage_bigcontainer2 {
     display: inline-block;
     width: 90%;
-    margin-left:  152px;
+    margin-left:  147px;
     text-align: center;
 }
 .mainpage_sales_containers{
