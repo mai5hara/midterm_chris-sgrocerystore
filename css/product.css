@@ -29,18 +29,24 @@ html{
 #addbtn{
     width:250px;
     height:50px;
-    background-color:orangered;
+    background-color:#F0BA58;
     color:white;
     font-size:15px; 
     border-radius:10px;
 }
+#addbtn:hover{
+    background-color: #f3aa21;
+}
 #addbtn-1{
     width:250px;
     height:50px;
-    background-color:white;
+    background-color:#b4b4b4;
     font-size:15px; 
     border-radius:10px;
     border: 2px solid black;
+}
+#addbtn-1:hover{
+    background-color: #a3a3a3;
 }
 #product-number{
     color:gray;
@@ -145,7 +151,10 @@ html{
     height:20px;
     font-size: 12px;
     border-radius:10px;
-    background-color:orangered;
+    background-color:#F0BA58;
+}
+#addbtn1:hover{
+    background-color: #f3aa21;
 }
 #addbtn2{
     margin-top:10px;
@@ -154,6 +163,10 @@ html{
     font-size: 12px;
     border-radius:10px;
     border:1px solid black;
+    background-color: #b4b4b4;
+}
+#addbtn2:hover{
+    background-color: #a3a3a3;
 }
 .product-all{
     width:200px;
@@ -164,4 +177,16 @@ html{
     width:1000px;
     height:auto;
     margin-left:15%;
+}
+#product-location{
+    text-decoration: none;
+}
+#product-location:active{
+    color: #F0BA58;
+}
+#product-location:link{
+    color: #F0BA58;
+}
+#product-location:visited{
+    color: #F0BA58;
 }
