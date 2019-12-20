@@ -21,7 +21,22 @@
     grid-template-columns: repeat(7, 110px); /*100px 100px 100px 100px 100px 100px 100px; */
     gap: 0;
     padding: 10px;
-    
+}
+
+#pickupgrid a {
+    text-decoration: none;
+}
+
+#pickupgrid a:active {
+    color: #F0BA58;
+}
+
+#pickupgrid a:link {
+    color: #F0BA58;
+}
+
+#pickupgrid a:visited {
+    color: #F0BA58;
 }
 
 .time {
