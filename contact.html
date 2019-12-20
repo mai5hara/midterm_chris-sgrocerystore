@@ -1,4 +1,4 @@
-<!DOCTYlabelE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="icon" href="images/favicon.ico">
     <title>Contact</title>
 </head>
 <body>
@@ -36,15 +37,15 @@
                     <ul class="header_menu_secondlevel">
                         <li class="header_menu_secondlevel_list"><a href="#">Food</a>
                             <ul class="header_menu_thirdlevel">
-                                <li><a href="#">See All Food</a></li>
-                                <li><a href="#">Holiday</a></li>
-                                <li><a href="#">Fruits & Vegetables</a></li>
-                                <li><a href="#">Deli & Ready Meals</a></li>
-                                <li><a href="#">Bakery</a></li>
-                                <li><a href="#">Meat & Seafood</a></li>
-                                <li><a href="#">Dairy and Eggs</a></li>
-                                <li><a href="#">Drinks</a></li>
-                                <li><a href="#">Frozen</a></li>
+                                <li><a href="./DepartmentsPage/Food.html">See All Food</a></li>
+                                <li><a href="./DepartmentsPage/Holiday.html">Holiday</a></li>
+                                <li><a href="./DepartmentsPage/Fruits&Vegetable.html">Fruits & Vegetables</a></li>
+                                <li><a href="./DepartmentsPage/Deli&Readymeals.html">Deli & Ready Meals</a></li>
+                                <li><a href="./DepartmentsPage/Bakery.html">Bakery</a></li>
+                                <li><a href="./DepartmentsPage/Meat&Seafood.html">Meat & Seafood</a></li>
+                                <li><a href="./DepartmentsPage/Dairy&Eggs.html">Dairy and Eggs</a></li>
+                                <li><a href="./DepartmentsPage/Drinks.html">Drinks</a></li>
+                                <li><a href="./DepartmentsPage/Ramen.html">Ramen</a></li>
                                 <li><a href="#">Pantry</a></li>
                                 <li><a href="#">Natural & Organic</a></li>
                                 <li><a href="#">International Foods</a></li>
@@ -202,6 +203,7 @@
                 </div>
             </div>
         </div>
+
     </header>
     <h1 class="contact_title">CONTACT US</h1>
     <div class="contact_wrap">
@@ -422,5 +424,22 @@
             </div>
         </form>
     </footer>
+    <!--Menu fix-->
+    <script>
+        var secondLevel = document.getElementsByClassName("header_menu_secondlevel");
+        var myArr = [...secondLevel];
+            myArr.forEach((x) => {
+                x.childNodes.forEach(c => {
+                    c.onmouseenter = () => { 
+                        c.children[1].style.visibility = 'visible'; 
+                        c.children[1].style.opacity = 1;
+                    };
+                    c.onmouseleave = () => { 
+                        c.children[1].style.visibility = 'hidden'; 
+                        c.children[1].style.opacity = 0;
+                    };
+                })
+            });
+    </script>
 </body>
 </html>
