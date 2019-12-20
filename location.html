@@ -7,104 +7,308 @@
     <link rel="stylesheet" type="text/css" href="./css/location.css">
     <LINK rel="SHORTCUT ICON" href="./images/logo.png">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/reset.css">
     <title>Location</title>
     <script src="https://kit.fontawesome.com/1e1751db70.js" crossorigin="anonymous"></script>   
     <title>StoreLocation</title>
 </head>
+<header>
+    <div class="header_top">
+        <a href="./mainpage.html" class="go-to-mainpage"><h1><img src="./images/Picture2.png"></h1></a>
+        <div class="header_searchbox">
+            <label for="header_searchinput"></label>
+            <input class="header_searchinput" name="email_sign_up_" type="email" placeholder="Search for product">
+            <button class="header_searchinput_button_element">
+                <a href="#"><i class="fas fa-search"></i></a>
+            </button>
+        </div>
+    
+        <div class="header_booking_selector">
+            <a href="#" class="header_booking_location"><span>STORE LOCATOR</span></a>
+            <a href="#" class="header_booking_order"><span>START A NEW ORDER</span></a>
+        </div>
+    </div>
+    <div class="header_bottom">
+        <ul class="header_listleft">
+            <li class="header_department header_menu_dropdown"><a href="#" class="header_init_bottom">DEPARTMENT<i class="fas fa-chevron-down"></i></a>
+                <ul class="header_menu_secondlevel">
+                    <li class="header_menu_secondlevel_list"><a href="#">Food</a>
+                        <ul class="header_menu_thirdlevel">
+                            <li><a href="#">See All Food</a></li>
+                            <li><a href="#">Holiday</a></li>
+                            <li><a href="#">Fruits & Vegetables</a></li>
+                            <li><a href="#">Deli & Ready Meals</a></li>
+                            <li><a href="#">Bakery</a></li>
+                            <li><a href="#">Meat & Seafood</a></li>
+                            <li><a href="#">Dairy and Eggs</a></li>
+                            <li><a href="#">Drinks</a></li>
+                            <li><a href="#">Frozen</a></li>
+                            <li><a href="#">Pantry</a></li>
+                            <li><a href="#">Natural & Organic</a></li>
+                            <li><a href="#">International Foods</a></li>
+                        </ul>
+                    </li>
+                    <li class="header_menu_secondlevel_list"><a href="#">Body</a>
+                        <ul class="header_menu_thirdlevel">
+                            <li><a href="#">See All Baby</a></li>
+                            <li><a href="#">Baby Care</a></li>
+                            <li><a href="#">Baby Safety</a></li>
+                            <li><a href="#">Baby Toys</a></li>
+                            <li><a href="#">Car Seats & Strollers</a></li>
+                            <li><a href="#">Changing & Potty Training</a></li>
+                            <li><a href="#">Feeding & Nursing</a></li>
+                            <li><a href="#">Gear</a></li>
+                            <li><a href="#">Gifts</a></li>
+                            <li><a href="#">Pantry</a></li>
+                            <li><a href="#">Nursery</a></li>
+                            <li><a href="#">IPregnancy & Maternity</a></li>
+                        </ul>
+                    </li>
+                    <li class="header_menu_secondlevel_list"><a href="#">Home & Living</a>
+                        <ul class="header_menu_thirdlevel">
+                            <li><a href="#">See All Home & Living</a></li>
+                            <li><a href="#">Bath</a></li>
+                            <li><a href="#">Bedding</a></li>
+                            <li><a href="#">Cleaning Products</a></li>
+                            <li><a href="#">Floral & Garden</a></li>
+                            <li><a href="#">Changing & Potty Training</a></li>
+                            <li><a href="#">Furniture</a></li>
+                            <li><a href="#">Home Decor</a></li>
+                            <li><a href="#">Home Storage & Organization</a></li>
+                            <li><a href="#">Irons, Steamers & Accessories</a></li>
+                            <li><a href="#">Kitchen & Dining</a></li>
+                            <li><a href="#">Lighting & Ceiling Fans</a></li>
+                            <li><a href="#">Seasonal Decor</a></li>
+                            <li><a href="#">Winter Essentials</a></li>
+                        </ul>
+                    </li>
+                    <li class="header_menu_secondlevel_list"><a href="#">Health & Beauty</a>
+                        <ul class="header_menu_thirdlevel">
+                            <li><a href="#">See All Health & Beauty</a></li>
+                            <li><a href="#">Baby & Child Care</a></li>
+                            <li><a href="#">Bath & Body</a></li>
+                            <li><a href="#">Beauty Products</a></li>
+                            <li><a href="#">Health Care</a></li>
+                            <li><a href="#">Nutrition & Wellness</a></li>
+                            <li><a href="#">Personal Care</a></li>
+                        </ul>
+                    </li>
+                    <li class="header_menu_secondlevel_list"><a href="#">Apparel & Accessories</a>
+                        <ul class="header_menu_thirdlevel">
+                            <li><a href="#">See All Apparel & Accessories</a></li>
+                            <li><a href="#">Baby</a></li>
+                            <li><a href="#">Boy's</a></li>
+                            <li><a href="#">Costumes & Accessories</a></li>
+                            <li><a href="#">Novelty</a></li>
+                            <li><a href="#">Shoe Care</a></li>
+                            <li><a href="#">Women's</a></li>
+                        </ul>
+                    </li>
+                    <li class="header_menu_secondlevel_list"><a href="#">Computers & Electronics</a>
+                        <ul class="header_menu_thirdlevel">
+                            <li><a href="#">See All Computers & Electronics</a></li>
+                            <li><a href="#">Accessories & Supplies</a></li>
+                            <li><a href="#">Camera & Photo</a></li>
+                            <li><a href="#">Home Audio & Video</a></li>
+                            <li><a href="#">Television & Home Theater</a></li>
+                        </ul>
+                    </li>
+                    <li class="header_menu_secondlevel_list"><a href="#">Office & School Supplies</a>
+                        <ul class="header_menu_thirdlevel">
+                            <li><a href="#">See All Office & School Supplies</a></li>
+                            <li><a href="#">Educational Products & Crafts</a></li>
+                            <li><a href="#">Filing Products</a></li>
+                            <li><a href="#">Office Furniture</a></li>
+                            <li><a href="#">Presentation Boards</a></li>
+                            <li><a href="#">Tape, Adhesives & Fasteners</a></li>
+                            <li><a href="#">Workspace Organizers & Accessories</a></li>
+                            <li><a href="#">Writing & Correction Supplies</a></li>
+                        </ul>
+                    </li>
+                    <li class="header_menu_secondlevel_list"><a href="#">Toys, Games & Hobbies</a>
+                        <ul class="header_menu_thirdlevel">
+                            <li><a href="#">See All Toys, Games & Hobbies</a></li>
+                            <li><a href="#">Action Figures</a></li>
+                            <li><a href="#">Building Sets & Blocks</a></li>
+                            <li><a href="#">Children's Electronics</a></li>
+                            <li><a href="#">Dolls & Accessories</a></li>
+                            <li><a href="#">Dress Up & Pretend</a></li>
+                            <li><a href="#">Educational Toys</a></li>
+                            <li><a href="#">Games</a></li>
+                            <li><a href="#">Hobbies</a></li>
+                            <li><a href="#">Novelty Toys</a></li>
+                            <li><a href="#">Outdoor Play</a></li>
+                            <li><a href="#">Party Supplies</a></li>
+                            <li><a href="#">Plush Stuffed Animals & Toys</a></li>
+                            <li><a href="#">Puzzles</a></li>
+                            <li><a href="#">Toddler Toys</a></li>
+                            <li><a href="#">Vehicles</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="header_menu_dropdown"><a href="#" class="header_init_bottom">MY SHOP<i class="fas fa-chevron-down"></i></a>
+                <ul class="header_menu_secondlevel">
+                    <li><a href="#">Most Purchased</a></li>
+                    <li><a href="#">Past Orders</a></li>
+                    <li><a href="#">Shopping List</a></li>
+                </ul>
+            </li>
+            <li class="header_menu_dropdown"><a href="#" class="header_init_bottom">WHAT’S NEW<i class="fas fa-chevron-down"></i></a>
+                <ul class="header_menu_secondlevel">
+                    <li><a href="#">Holiday</a></li>
+                    <li><a href="#">Shop by Brand</a></li>
+                    <li><a href="#">Online Exclusives</a></li>
+                </ul>
+            </li>
+            <li class="header_menu_dropdown"><a href="#" class="header_init_bottom">FLYER & DEALS<i class="fas fa-chevron-down"></i></a>
+                <ul class="header_menu_secondlevel">
+                    <li><a href="#">All Deals</a></li>
+                    <li><a href="#">Print Flyer</a></li>
+                    <li><a href="#">Coupons</a></li>
+                </ul>
+            </li>
+            <li class="header_menu_dropdown"><a href="#" class="header_init_bottom">SERVICES<i class="fas fa-chevron-down"></i></a>
+                <ul class="header_menu_secondlevel">
+                    <li><a href="#">Dietitians</a></li>
+                    <li><a href="#">Optical</a></li>
+                    <li><a href="#">Medical Clinics</a></li>
+                    <li><a href="#">Pharmacy Services</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="header_rightwrap">
+            <div class="header_signin header_right">
+                <a href="#"><i class="fas fa-user-alt"></i>SIGN IN</a>
+            </div>
+            <!--
+            <div class="header_totalprice header_right">
+                <a class="header_totalprice_value" href="#">$0.00<i class="fas fa-chevron-down"></i></a>
+                <div class="header_cart_button header_cart_flyout">
+                    <div class="header_cart_warning">
+                        <span>Your cart is empty</span>
+                    </div>
+                    <div class="header_cart_summary">
+                        <div class="header_cart_summary_content">
+                            <span class="header_cart_summary_content_text">SUBTOTAL : $0.00</span>
+                        </div>
+                        <a class="header_cart_summary_content_checkout" href="#">CHECKOUT</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header_checkout header_right">
+                <a href="#">CHECKOUT</a>
+            </div>
+             -->
+        </div>
+    </div>
+</header>
+
 <body>
-    <div class="mainpage_bigcontainer">
-    <div class="location_bigcontainer">
     <h1 class="location_collection_title">FIND A LOCATION</h1>  
 
-    
-    
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" width=30px height=30px>
-    <form method="get" action="#" class="search_container">
-    <input type="text" size="25" placeholder="  Enter your address or postal">
-    <input type="submit" value="&#xf002" >
-    </form>
-
-      
-    <div class="blocka">
-        <div class="head">
-            <div id= box1> Showing </div>
-            <div class="cp_ipselect cp_sl01" id="box2">
-            <select required>
-                <option value="1">Express pickup location</option>
-                <option value="2">Near by superstores</option>
-            </select>
-            </div>
-            <div id="box3">
-            <a href="#" class="btn-flat-border">Filter</a>
-            </div>
-        </div>
-
-        <div class="item">
-            <div id="box4"><img src="./images/location.png" width="50%"height="20%"></div>
-            <div id="box5">
-                <h4 class="storename">Chris' grocery MARINE DRIVE </h4>
-                <h5 class="storeaddress">350 SE Marine Dr, Vancouver, British Columbia V5X 2S5</h5>
-                <h5 class="openingtime">Open Now7:00 AM - 11:00 PM </h5>
-            </div>
-            <div id="box6">
-                <a href="#" class="btn-flat-border2">PICK UP HERE</a>
-            </div>
-        </div>
-        <div class="item">
-                <div id="box4"><img src="./images/location.png" width="50%"height="20%"></div>
-            <div id="box5">
-                <h4 class="storename">Chris' grocery MARINE DRIVE </h4>
-                <h5 class="storeaddress">350 SE Marine Dr, Vancouver, British Columbia V5X 2S5</h5>
-                <h5 class="openingtime">Open Now7:00 AM - 11:00 PM </h5>
-            </div>
-            <div id="box6">
-                <a href="#" class="btn-flat-border2">PICK UP HERE</a>
-            </div>
-        </div>
-        <div class="item">
-            <div id="box4"><img src="./images/location.png" width="50%"height="20%"></div>
-            <div id="box5">
-                <h4 class="storename">Chris' grocery MARINE DRIVE </h4>
-                <h5 class="storeaddress">350 SE Marine Dr, Vancouver, British Columbia V5X 2S5</h5>
-                <h5 class="openingtime">Open Now7:00 AM - 11:00 PM </h5>
-            </div>
-            <div id="box6">
-                <a href="#" class="btn-flat-border2">PICK UP HERE</a>
-            </div>
-        </div>
-        <div class="item">
-            <div id="box4"><img src="./images/location.png" width="50%"height="20%"></div>
-            <div id="box5">
-                <h4 class="storename">Chris' grocery MARINE DRIVE </h4>
-                <h5 class="storeaddress">350 SE Marine Dr, Vancouver, British Columbia V5X 2S5</h5>
-                <h5 class="openingtime">Open Now7:00 AM - 11:00 PM </h5>
-            </div>
-            <div id="box6">
-                <a href="#" class="btn-flat-border2">PICK UP HERE</a>
-            </div>
-        </div>
-        <div class="item">
-            <div id="box4"><img src="./images/location.png" width="50%"height="20%"></div>
-            <div id="box5">
-                <h4 class="storename">Chris' grocery MARINE DRIVE </h4>
-                <h5 class="storeaddress">350 SE Marine Dr, Vancouver, British Columbia V5X 2S5</h5>
-                <h5 class="openingtime">Open Now7:00 AM - 11:00 PM </h5>
-            </div>
-            <div id="box6">
-                <a href="#" class="btn-flat-border2">PICK UP HERE</a>
-            </div>
-        </div>
-        </div>
-     <div class="blockb">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114883.17650221102!2d-123.17970452279694!3d49.27366098861179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548670887d16618f%3A0x7b332275276af73a!2sReal%20Canadian%20Superstore!5e0!3m2!1sja!2sca!4v1576696429061!5m2!1sja!2sca"
-        width="100%" height="830px" allowfullscreen=""></iframe>
-     </div>
+    <div class="header_searchbox">
+        <label for="header_searchinput"></label>
+        <input class="header_searchinput" name="email_sign_up_" type="email" placeholder="Search your address or postalcode">
+        <button class="header_searchinput_button_element">
+            <a href="#"><i class="fas fa-search"></i></a>
+        </button>
     </div>
-</div>
-</body>
+    
 
+    <div class="mainpage_bigcontainer"> 
+        <div class="vertical_boxA">
+            <div class="firstbox_of_A">
+                <div id= box1>
+                    Showing 
+                </div>
+                <div class="cp_ipselect cp_sl01" id="box2">
+                    <select required>
+                        <option value="1">Express pickup location</option>
+                        <option value="2">Near by superstores</option>
+                    </select>
+                </div>
+                <div id="box3">
+                    <a href="#" class="btn-flat-border">Filter</a>
+                </div>
+            </div>
+
+            <div class="otherbox_of_A">
+                <div id="box4">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div id="box5">
+                    <h4 class="storename">Chris' grocery MARINE DRIVE </h4>
+                    <h5 class="storeaddress">350 SE Marine Dr, Vancouver, British Columbia V5X 2S5</h5>
+                    <h5 class="openingtime">Open Now7:00 AM - 11:00 PM </h5>
+                </div>
+                <div id="box6">
+                    <a href="#" class="btn-flat-border2">PICK UP HERE</a>
+                </div>
+            </div>
+            <div class="otherbox_of_A">
+                <div id="box4">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div id="box5">
+                    <h4 class="storename">Chris' grocery MARINE DRIVE </h4>
+                    <h5 class="storeaddress">350 SE Marine Dr, Vancouver, British Columbia V5X 2S5</h5>
+                    <h5 class="openingtime">Open Now7:00 AM - 11:00 PM </h5>
+                </div>
+                <div id="box6">
+                    <a href="#" class="btn-flat-border2">PICK UP HERE</a>
+                </div>
+            </div>
+            <div class="otherbox_of_A">
+                <div id="box4">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div id="box5">
+                    <h4 class="storename">Chris' grocery MARINE DRIVE </h4>
+                    <h5 class="storeaddress">350 SE Marine Dr, Vancouver, British Columbia V5X 2S5</h5>
+                    <h5 class="openingtime">Open Now7:00 AM - 11:00 PM </h5>
+                </div>
+                <div id="box6">
+                    <a href="#" class="btn-flat-border2">PICK UP HERE</a>
+                </div>
+            </div>
+            <div class="otherbox_of_A">
+                <div id="box4">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div id="box5">
+                    <h4 class="storename">Chris' grocery MARINE DRIVE </h4>
+                    <h5 class="storeaddress">350 SE Marine Dr, Vancouver, British Columbia V5X 2S5</h5>
+                    <h5 class="openingtime">Open Now7:00 AM - 11:00 PM </h5>
+                </div>
+                <div id="box6">
+                    <a href="#" class="btn-flat-border2">PICK UP HERE</a>
+                </div>
+            </div>
+            <div class="otherbox_of_A">
+                <div id="box4">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div id="box5">
+                    <h4 class="storename">Chris' grocery MARINE DRIVE </h4>
+                    <h5 class="storeaddress">350 SE Marine Dr, Vancouver, British Columbia V5X 2S5</h5>
+                    <h5 class="openingtime">Open Now7:00 AM - 11:00 PM </h5>
+                </div>
+                <div id="box6">
+                    <a href="#" class="btn-flat-border2">PICK UP HERE</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="vertical_boxB">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114883.17650221102!2d-123.17970452279694!3d49.27366098861179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548670887d16618f%3A0x7b332275276af73a!2sReal%20Canadian%20Superstore!5e0!3m2!1sja!2sca!4v1576696429061!5m2!1sja!2sca"
+            width="100%" height="830px" allowfullscreen="">
+            </iframe>
+        </div>
+    </div>
+</body>
 
 <footer>
     <div class="footer_wrap">
